@@ -1,0 +1,102 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #666;
+}
+
+.main {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background-color: #bbb;
+	width: fit-content;
+	border-radius: 16px;
+	margin: auto;
+	overflow: hidden;
+}
+
+.menu {
+	background-color: #ddd;
+	color: #111;
+	width: 190px;
+	min-height: 600px;
+	padding: 20px 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.menu .logo {
+	margin-top: -15px;
+	width: 100%;
+	height: 65px;
+}
+
+.menu .logo img {
+	width: 130%;
+	height: 100%;
+}
+
+.menu-items {
+	font-size: 1.1rem;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	gap: 10px;
+	padding: 20px 0;
+}
+
+.menu-item {
+	gap: 5px;
+	display: flex;
+	align-items: center;
+	padding: 7px 12px;
+	border-radius: 8px;
+	cursor: pointer;
+}
+
+.menu-item:hover {
+	background-color: #111;
+	color: #ddd;
+}
+
+.menu-login .user {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 10px;
+	padding: 5px 0px;
+	cursor: pointer;
+}
+
+.menu-login .user-profession {
+	display: inline;
+	font-size: 0.7rem;
+	text-transform: uppercase;
+	padding: 2px 4px;
+	border-radius: 3px;
+	background-color: #ddd;
+}
+
+.menu-login img {
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+}
+
+.menu .setting {
+	display: flex;
+	justify-content: space-around;
+	padding: 15px 0;
+	cursor: pointer;
+}
+
+.setting div {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
