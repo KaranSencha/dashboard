@@ -10,12 +10,12 @@ body {
 
 .main {
 	display: flex;
-	align-items: center;
+	align-items: start;
 	justify-content: space-around;
 	background-color: #bbb;
 	width: fit-content;
 	border-radius: 16px;
-	margin: auto;
+	margin:10px  auto;
 	overflow: hidden;
 }
 
