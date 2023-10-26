@@ -100,3 +100,129 @@ body {
 	align-items: center;
 	gap: 8px;
 }
+
+.dashboard {
+	color: #111;
+	width: 55%;
+	width: 600px;
+	padding: 20px;
+}
+
+.dashboard .logo {
+	font-size: 1.6rem;
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	margin-left: 15px;
+}
+
+.dashboard .first {
+	display: flex;
+	background-color: #ddd;
+	border-radius: 16px;
+	margin: 20px 10px;
+	height: 250px;
+}
+
+.dashboard .first .left {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	padding: 10px 20px;
+	max-width: 65%;
+}
+
+.dashboard .first .left h1 {
+	text-transform: uppercase;
+	font-size: 1.9rem;
+	line-height: 1.2;
+}
+
+.btn-box {
+	display: flex;
+	gap: 20px;
+}
+
+.btn-box button {
+	display: flex;
+	align-items: center;
+	background-color: #ddd;
+	gap: 5px;
+	color: #111;
+	border: 1px solid #333;
+	padding: 2px 8px;
+	border-radius: 8px;
+}
+
+.btn-box button:hover,
+.btn-job {
+	background-color: #111;
+	color: #ddd;
+}
+
+.dashboard .first .img-box {
+	width: 30%;
+	position: relative;
+}
+
+.dashboard .first img {
+	width: 145%;
+	position: absolute;
+	left: -45px;
+	bottom: 0;
+}
+
+.dashboard .second {
+	display: flex;
+	justify-content: space-around;
+	margin: 20px 0;
+	height: 130px;
+}
+
+.dashboard .second div {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	width: 45%;
+	border-radius: 16px;
+	background-color: #ddd;
+	padding: 10px 20px;
+}
+
+.dashboard .second h3 {
+	font-size: 1.2rem;
+}
+
+.dashboard .second a {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	text-decoration: none;
+	color: #333;
+}
+
+.dashboard .third {
+	background-color: #ddd;
+	padding: 20px;
+	color: #111;
+	border-radius: 16px;
+	margin: 20px 10px;
+	height: 100px;
+}
+
+.dashboard .third h3 {
+	font-size: 1.2rem;
+	margin-bottom: 10px;
+}
+
+.dashboard .third p {
+	color: #333;
+}
+
+.dashboard .third img {
+	float: right;
+	width: 110px;
+	border-radius: 30px;
+	margin-right: 50px;
+	height: auto;
+}
