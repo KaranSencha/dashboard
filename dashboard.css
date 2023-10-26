@@ -5,7 +5,7 @@
 }
 
 body {
-	background-color: #666;
+	background-color: #6b6a6a;
 }
 
 .main {
@@ -152,6 +152,7 @@ body {
 	border: 1px solid #333;
 	padding: 2px 8px;
 	border-radius: 8px;
+	cursor: pointer;
 }
 
 .btn-box button:hover,
@@ -170,6 +171,7 @@ body {
 	position: absolute;
 	left: -45px;
 	bottom: 0;
+	user-select: none;
 }
 
 .dashboard .second {
@@ -246,6 +248,10 @@ body {
 	padding-left: 10px;
 }
 
+.sidebar .first input:focus {
+	outline: 2px solid #555;
+}
+
 .sidebar .first .btn-job {
 	display: flex;
 	align-items: center;
@@ -316,6 +322,9 @@ body {
 	gap: 10px;
 	margin-bottom: 8px;
 	padding: 5px 10px;
+	background-color: #ccc;
+	border-radius: 8px;
+	cursor: pointer;
 }
 
 .sidebar .third .users img {
@@ -340,6 +349,8 @@ body {
 
 .sidebar .third .users .user-profession span {
 	font-size: 1rem;
+	padding: 0 5px;
+	color: green;
 }
 
 .sidebar .third .user-btn {
