@@ -226,3 +226,167 @@ body {
 	margin-right: 50px;
 	height: auto;
 }
+
+.sidebar {
+	background-color: #bbb;
+	color: #111;
+	/* width: 25%; */
+	width: 320px;
+	padding: 20px;
+}
+
+.sidebar .first {
+	display: flex;
+	justify-content: space-around;
+}
+
+.sidebar .first input {
+	border: none;
+	border-radius: 8px;
+	padding-left: 10px;
+}
+
+.sidebar .first .btn-job {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+	background-color: #111;
+	color: #ddd;
+	border: 1px solid #333;
+	border-radius: 8px;
+	padding: 4px 8px;
+	cursor: pointer;
+}
+
+
+.sidebar .second {
+	height: 130px;
+	display: flex;
+	border-radius: 16px;
+	margin: 20px 0;
+	background-color: #ddd;
+	padding: 10px 20px;
+}
+
+.sidebar .second .left {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+}
+
+.sidebar .second .right {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	width: 40%;
+	border: 6px solid #CCc;
+	border-radius: 50%;
+}
+
+.sidebar .second .right .progress {
+	padding: 25px 20px;
+	border-radius: 50%;
+	font-weight: 500;
+	font-size: 1.1rem;
+	border: 6px solid green;
+}
+
+.sidebar .second p {
+	color: #444;
+}
+
+.sidebar .second .activity-score {
+	font-size: 1.1rem;
+	font-weight: 500;
+	color: #111;
+}
+
+
+.sidebar .third {
+	background-color: #ddd;
+	border-radius: 16px;
+	margin: 20px 0;
+	padding: 10px 12px;
+}
+
+
+.sidebar .third .users .user {
+	display: flex;
+	gap: 10px;
+	margin-bottom: 8px;
+	padding: 5px 10px;
+}
+
+.sidebar .third .users img {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+
+.sidebar .third .users .user-name {
+	font-weight: 500;
+}
+
+.sidebar .third .users .user-profession {
+	display: flex;
+	align-items: center;
+	padding: 2px 4px;
+	border-radius: 3px;
+	text-transform: uppercase;
+	font-size: 0.7rem;
+	background-color: #ddd;
+}
+
+.sidebar .third .users .user-profession span {
+	font-size: 1rem;
+}
+
+.sidebar .third .user-btn {
+	background-color: #ddd;
+	color: #111;
+	border: 1px solid #333;
+	border-radius: 8px;
+	text-align: center;
+	width: 94%;
+	margin: 5px 3%;
+	padding: 6px;
+}
+
+.sidebar .third .user-btn:hover {
+	background-color: #111;
+	color: #ddd;
+}
+
+.sidebar .fourth {
+	background-color: #0B7166;
+	color: #ECFFFF;
+	border-radius: 16px;
+	margin: 20px 0;
+	padding: 10px 20px;
+}
+
+.sidebar .fourth h3 {
+	text-transform: uppercase;
+}
+
+.sidebar .fourth p {
+	color: #ddd;
+	font-size: 0.9rem;
+	padding: 5px 0;
+	margin-bottom: 12px;
+}
+
+.sidebar .fourth a {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	text-decoration: none;
+	width: fit-content;
+	background-color: #FEBF4C;
+	color: #111;
+	padding: 2px 16px;
+	border-radius: 5px;
+	font-size: 0.9rem;
+	font-weight: 500;
+}
